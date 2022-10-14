@@ -1,0 +1,11 @@
+arr=np.random.rand(3)
+print("Numpy array:")
+print(arr)
+d=pd.dataframe(series,columns=['A'])
+print("\narray to data frame:")
+series=pd.series(arr)
+print("series:")
+display(series)
+df=pd.dataframe(series,columns=[A])
+print("\nseries to dataframe;")
+
